@@ -13,9 +13,11 @@
 }
 
 .logo {
-  margin-left: 30px;
+  margin-left: 10px;
   color: black;
-  font-family: 'Krona One', sans-serif;
+  margin-top: -15px;
+  height: 65px;
+  object-fit: contain;
 }
 
 .logo:hover {

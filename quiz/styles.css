@@ -15,7 +15,8 @@
 .logo {
   margin-left: 30px;
   color: black;
-  font-family: 'Krona One', sans-serif;
+  height: 50px;
+  object-fit: contain;
 }
 
 .logo:hover {
@@ -82,6 +83,16 @@ h{
 button{
   display:block;
   margin-top:5px;
+	cursor: pointer;
+	background: #6dd6d1;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0px 10px 25px #57aba7, 0px -10px 25px #a6fffa, inset 0px -5px 10px #57aba7, inset 0px 5px 10px #a6fffa;
+	font-family: 'Krona One', sans-serif;
+	color: white;
+	font-size: 20px;
+	transition: 500ms;
+}
 }
 button:hover{
    transform: translateY(-3px) scale(1.02);
@@ -109,7 +120,8 @@ button:hover{
   transition: all 0.1s ease-in-out;
 }
 
-/* Main */
+
+
 
 body{
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://bhf-cdn.azureedge.net/bhf-blob-prod/0033958_altira-light-pink-texture-wallpaper_600.jpeg");
@@ -122,41 +134,50 @@ body{
     background: #E7F6E5;
   }
   
-/* Rec */
 
+  p{
+    color:#63b7af;
+    font-size: 20px;
+     overflow: hidden;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+  
+  }
+  
+  .rec{
+    color: black;
+    font-size:12px;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+  
+  }
+  
+  .events{
+    background-color:#63B7AF;
+    font-family: 'Krona One', sans-serif;
+    display:block;
+    margin-top:5px;
+    cursor: pointer;
+    background: #6dd6d1;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 10px 25px #57aba7, 0px -10px 25px #a6fffa, inset 0px -5px 10px #57aba7, inset 0px 5px 10px #a6fffa;
+    color: white;
+    font-size: 20px;
+    transition: 500ms;
+  }
+  }
+  
+  .events:hover{
+     transform: translateY(-3px) scale(1.02);
+    box-shadow: 3px 3px 10px #d0ebff;
+    transition: all 0.1s ease-in-out;
+  }
+  body{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://bhf-cdn.azureedge.net/bhf-blob-prod/0033958_altira-light-pink-texture-wallpaper_600.jpeg");
+  }
 
-.rec-desc {
-  color:#63b7af;
-  font-size: 20px;
-   overflow: hidden;
-  text-align: center;
-  font-family: 'Krona One', sans-serif;
-
-}
-
-.rec{
-  color: black;
-  font-size:12px;
-  overflow: hidden;
-  text-align: center;
-  font-family: 'Krona One', sans-serif;
-
-}
-
-.events{
-  background-color:#63B7AF;
-  display:block;
-  margin-top:5px;
-}
-
-.events:hover{
-   transform: translateY(-3px) scale(1.02);
-  box-shadow: 3px 3px 10px #d0ebff;
-  transition: all 0.1s ease-in-out;
-}
-body{
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://bhf-cdn.azureedge.net/bhf-blob-prod/0033958_altira-light-pink-texture-wallpaper_600.jpeg");
-}
   
 /* Footer */
 

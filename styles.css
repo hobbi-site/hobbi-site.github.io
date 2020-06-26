@@ -8,12 +8,14 @@
   padding: 5px;
   padding-top: 10px;
   z-index: 100;
+  align-content: center;
 }
 
 .logo {
   margin-left: 30px;
   color: black;
-  font-family: 'Krona One', sans-serif;
+  height: 50px;
+  object-fit: contain;
 }
 
 .logo:hover {
