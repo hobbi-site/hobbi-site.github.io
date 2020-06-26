@@ -21,7 +21,7 @@
 title: Hobbi
 markdown: kramdown
 repository: hobbi-site/hobbi-site.github.io
-email: hobbicontact@gmail.com
+email: hobbicontact@gmail.com 
 
 # Build settings
 plugins:
