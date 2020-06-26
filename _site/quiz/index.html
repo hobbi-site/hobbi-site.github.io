@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+	<html>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width">
+            <title>Hobbi</title>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link href="styles.css" rel="stylesheet" type="text/css" />
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+            <script src="script.js" defer></script>
+        </head>  
+		<body onload="loadCurrent()">
+            <section class="navigation-bar">
+                <div class="header">
+                  <nav class="nav-bar sticky nav">
+                    <!-- Logo here -->
+                    <a href="/" class="logo"><h1 class="logo">Hobbi</h1></a>
+                    <div class="selections">
+                      <ul class="nav-bar-options">
+                        <a href="/"><li class="option">Home</li></a>
+                        <a href="/discover.html"><li class="option">Discover</li></a>
+                        <a href="/local"><li class="option">Local Events</li></a>
+                        <a href="/corona.html"><li class="option">Coronavirus Tips</li></a>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+            </section>
+
+			<div class="container">
+			
+			<!-- Code in this file written by Vanessa Li -->
+
+<div class="content">
+        <h4> Personalized Recommendation </h4>
+        <h>Your name here:</h>
+       <input type="text" class="rate" min="1" max="10">
+   
+       <!-- <input type = "submit" class = "button"> -->
+      <!-- <button> Submit </button>  -->
+   
+       <body>
+     <h2 class="quizHeader">Daily Mood Quiz!</h2>
+     
+       <table style="width:583px">
+       <tr>
+         <td>
+             <div>
+                 <p class="question">1. Which word best describe how you feel today</p>
+   
+               <ul>
+               <input class="answer" type="radio" name="q1" value="4">
+               <label id="correctString1">Wonderful</label>
+               <br>
+               <input class="answer" type="radio" name="q1" value="3">
+               <label>normal</label>
+               <br>
+               <input class="answer" type="radio" name="q1" value="2">
+               <label>sad</label>
+               <br>
+               <input class="answer" type="radio" name="q1" value="1">
+               <label>terrible!</label>
+               </ul>
+             </div>
+         </td>
+         <td>
+             <div>
+                 <p class="question">2. How would you rate your day from 1-4? 1 being the worst, 4 being the best. </p>
+   
+               <ul>
+               <input class="answer" type="radio" name="q2" value="4">
+               <label>4</label>
+               <br>
+               <input class="answer" type="radio" name="q2" value="3">
+               <label id="correctString2">3</label>
+               <br>
+               <input class="answer" type="radio" name="q2" value="2">
+               <label>2</label>
+               <br>
+               <input class="answer" type="radio" name="q2" value="1">
+               <label>1</label>
+               </ul>
+             </div>
+         </td>
+       </tr>
+       <tr>
+         <td>
+             <div>
+                 <p class="question">3. How does the following description apply to you? I feel full of energy today! </p>
+   
+               <ul>
+               <input class="answer" type="radio" name="q3" value="4">
+               <label>Literally me. Very true.</label>
+               <br>
+               <input class="answer" type="radio" name="q3" value="3">
+               <label id="correctString3">I'm happy not not that energetic</label>
+               <br>
+               <input class="answer" type="radio" name="q3" value="2">
+               <label>does not apply to me</label>
+               <br>
+               <input class="answer" type="radio" name="q3" value="1">
+               <label>I feel the opposite</label>
+               </ul>
+           </div>
+         </td>
+         <td>
+             <div>
+                 <p class="question">4.How does the following description apply to you? My future seems hopless. </p>
+   
+               <ul>
+               <input class="answer" type="radio" name="q4" value="4">
+               <label>That is not true! My future seems bright.</label>
+               <br>
+               <input class="answer" type="radio" name="q4" value="3">
+               <label id="correctString4">Not really that does not apply to me because I don't feel that way</label>
+               <br>
+               <input class="answer" type="radio" name="q4" value="2">
+               <label>Yes I agree.</label>
+               <br>
+               <input class="answer" type="radio" name="q4" value="1">
+               <label>Totally true of me.</label>
+             
+               </ul>
+             </div>
+         </td>
+      
+       </tr>
+       </table>
+   <br/>
+    <div>
+           <h2 class="quizScore" id="userScore"></h2>
+       </div>
+       </div>
+   <button onclick="window.location.href='Rec.html';">Submit</button>
+   
+   </body>
+   
+        
+       
+       
+       <!-- <img src = "https://cms.qz.com/wp-content/uploads/2017/04/happiness-is-a-problem.jpg?quality=75&strip=all&w=1600&h=900&crop=1"> -->
+   
+   
+      <div class = "testing">
+        </div>
+     
+     <link href="style.css" rel="stylesheet" type="text/css" />
+       <script src="script.js"></script>
+       <link href="style.css" rel="stylesheet" type="text/css" />
+   
+     <div class="container">
+           <div class="col-md-4 col-md-offset-4 mainForm">
+</div>
+			
+            </div>
+            
+            <footer>
+                <div class="icons">
+                    <a href="mailto:hobbicontact@gmail.com" target="_blank" class="footer-link"><i class="fa fa-envelope" aria-hidden="true" style="font-size:36px"></i></a>
+                </div>
+                <p class="copyright">
+                Created by Hobbi.
+                </p>
+            </footer>
+		</body>
+	</html>

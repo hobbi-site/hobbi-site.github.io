@@ -1,0 +1,172 @@
+/* Code in this file written by Vanessa Li (excluding Navigation Bar and Footer), with minor modifications for smoother incorporation */
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+/* Navigation Bar */
+
+.nav-bar {
+  overflow: hidden;
+  background-color: #abf0e9;
+  padding: 5px;
+  padding-top: 10px;
+  z-index: 1;
+}
+
+.logo {
+  margin-left: 30px;
+  color: black;
+  font-family: 'Krona One', sans-serif;
+}
+
+.logo:hover {
+  text-decoration: none;
+}
+
+.nav-bar .option {
+  float: left;
+  color: black;
+  padding: 15px 30px;
+}
+
+.selections {
+  text-align: center;
+  align: right;
+}
+
+.nav-bar-options {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.option {
+  list-style: none;
+}
+
+.option:hover {
+  text-decoration: underline;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.content {
+    padding-top: 95px;
+    width: 100%;
+}
+
+h4{
+  font-size:5px;
+  color:gold;
+  transform: translate(20%, 50%);
+  text-shadow: 0 0 0.6rem #D4F3EF, 0 0 1.5rem hsl(0, 0%, 0%) ,
+    -0.2rem 0.1rem 1rem #D4F3EF , 0.2rem 0.1rem 1rem #D4F3EF ,
+    0 -0.5rem 2rem #D4F3EF, 0 0.5rem 3rem #D4F3EF;
+  animation: shine 2s forwards, flicker 3s infinite;
+ font-size: 60px;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #626262,
+               0 3px 0 #bbb,
+               0 4px 0 #000000,
+               0 5px 0 #aaa,
+}
+h{
+  font-size:12px;
+  color:#EEEEEE;
+  
+}
+
+
+button{
+  display:block;
+  margin-top:5px;
+}
+button:hover{
+   transform: translateY(-3px) scale(1.02);
+  box-shadow: 3px 3px 10px #d0ebff;
+  transition: all 0.1s ease-in-out;
+}
+
+
+.rate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 0;
+  padding: 12px 0 10px 10px;
+  background-color: #0ff7542c;
+  box-shadow: 3px 3px 10px #e9ecef;
+  border-radius: 4px;
+  overflow: hidden;
+  transition: transform 0.1s ease-in-out;
+}
+
+.rate:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 3px 3px 10px #d0ebff;
+  transition: all 0.1s ease-in-out;
+}
+
+/* Main */
+
+body{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://bhf-cdn.azureedge.net/bhf-blob-prod/0033958_altira-light-pink-texture-wallpaper_600.jpeg");
+}
+
+.trail { 
+    position: absolute;
+    height: 6px; width: 6px;
+    border-radius: 3px;
+    background: #E7F6E5;
+  }
+  
+/* Rec */
+
+
+.rec-desc {
+  color:#63b7af;
+  font-size: 20px;
+   overflow: hidden;
+  text-align: center;
+  font-family: 'Krona One', sans-serif;
+
+}
+
+.rec{
+  color: black;
+  font-size:12px;
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Krona One', sans-serif;
+
+}
+
+.events{
+  background-color:#63B7AF;
+  display:block;
+  margin-top:5px;
+}
+
+.events:hover{
+   transform: translateY(-3px) scale(1.02);
+  box-shadow: 3px 3px 10px #d0ebff;
+  transition: all 0.1s ease-in-out;
+}
+body{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://bhf-cdn.azureedge.net/bhf-blob-prod/0033958_altira-light-pink-texture-wallpaper_600.jpeg");
+}
+  
+/* Footer */
+
+footer {
+  text-align: center;
+  padding-bottom: 10px;
+  background-color: #eeeeee;
+}
+
+.fa {
+  color: navy;
+  margin: 20px;
+}

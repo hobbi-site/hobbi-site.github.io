@@ -12,18 +12,18 @@
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
             <script src="script.js" defer></script>
         </head>  
-		<body>
+		<body onload="loadCurrent()">
             <section class="navigation-bar">
                 <div class="header">
                   <nav class="nav-bar sticky nav">
                     <!-- Logo here -->
-                    <h1 class="logo">Hobbi</h1> 
+                    <a href="/" class="logo"><h1 class="logo">Hobbi</h1></a>
                     <div class="selections">
                       <ul class="nav-bar-options">
-                        <a href="home.html"><li class="option">Home</li></a>
-                        <a href="discover.html"><li class="option">Discover</li></a>
-                        <a href="local.html"><li class="option">Local Events</li></a>
-                        <a href="corona.html"><li class="option">Coronavirus Tips</li></a>
+                        <a href="/"><li class="option">Home</li></a>
+                        <a href="/discover.html"><li class="option">Discover</li></a>
+                        <a href="/local"><li class="option">Local Events</li></a>
+                        <a href="/corona.html"><li class="option">Coronavirus Tips</li></a>
                       </ul>
                     </div>
                   </nav>

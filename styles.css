@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
 /* Navigation Bar */
 
 .nav-bar {
@@ -5,11 +7,17 @@
   background-color: #abf0e9;
   padding: 5px;
   padding-top: 10px;
+  z-index: 1;
 }
 
 .logo {
   margin-left: 30px;
   color: black;
+  font-family: 'Krona One', sans-serif;
+}
+
+.logo:hover {
+  text-decoration: none;
 }
 
 .nav-bar .option {
@@ -44,6 +52,124 @@
 
 .content {
     padding-top: 95px;
+    width: 100%;
+}
+
+/* Homepage */
+
+.jumbotron {
+  padding: 75px;
+  background-color: white;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 #abf0e9;
+}
+
+.jumbo-desc {
+  font-size: 24px;
+  margin-left: 5px;
+}
+
+.btn {
+  background-color: #393e46;
+  border: #abf0e9;
+}
+
+.btn:hover {
+  background-color: #eeeeee;
+  color: black;
+}
+
+.upcoming-title {
+  padding-bottom: 20px;
+}
+
+.upcoming-container {
+  margin-bottom: 50px;
+}
+
+.likes-container {
+  margin-bottom: 50px;
+}
+
+.explore-container {
+  margin-bottom: 50px;
+}
+
+/* Discover */
+
+.flex-container {
+  display: flex;
+}
+
+.list-groups {
+  margin: 20px 50px 0px -100px;
+  display: inline-block;
+}
+
+.list-group-item .lgi {
+  color: #393e46;
+}
+
+.badge {
+  background-color: #32e0c4;
+}
+
+.activity-section {
+  margin-left: 50px;
+  width: 85%;
+}
+
+.activity-title {
+  text-decoration: underline;
+  text-decoration-color: #32e0c4;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.activity-desc {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.activity {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.event-card {
+  width: 30%;
+  margin: 0px 30px 30px 0px;
+}
+
+/* Learn More */
+
+.learn-more-content {
+  height: 700px;
+}
+
+.learn-more-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px 0 #abf0e9;
+  padding: 100px;
+}
+
+.lm-title {
+  margin-bottom: 20px;
+}
+
+.lm-desc {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.lm-btn {
+  font-size: 18px;
 }
 
 /* Footer */
